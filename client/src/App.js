@@ -24,6 +24,7 @@ function App() {
         <div>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
+          <br/>Version: Kubernetes!<br/>
         </div>
       </div>
     </Router>
